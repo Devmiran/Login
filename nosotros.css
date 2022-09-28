@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+
+body{
+display: flex;
+flex-direction: column;
+min-height: 100%;
+background-color: rgb(96, 119, 119);
+height: 1000px;
+
+}
+header {
+    background-color: rgb(79, 79, 87);
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   letter-spacing:1.1 rem;
+   font-size: 30px;
+   
+}
+#container{
+    display:flex;
+
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+
+header li {
+    list-style: none;
+    margin-top:2px;
+   
+
+}
+ul>li>a{
+    text-decoration: none;
+}
+
+.container-medio{
+    display: flex;
+}
+
+.foto{
+    border:solid 4px gray;
+    height: 300px;
+    width: 400px;
+ 
+}
+a{
+    color: white;
+}
+.container .main {
+    display : flex;
+   flex-direction : row;
+   text-align:justify;
+   grid-column-gap:1em;
+ }
+
+ h2{
+    text-align: center;
+ }
+
+.footer{
+    border:solid 1px gray;
+    background-color: rgb(79, 79, 87);
+    padding: 10px;
+    color:white;
+   
+ }
+
+ 
+.pie{
+    padding-left: 800px;
+    font-weight: bold;
+}
+
+.a{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+   
+}
+
+.seleccion{
+    height: 80px;
+    width: 150px;
+    margin-top: 130px;
+    border: solid 2px rgb(66, 44, 85);
+    background-color: rgb(131, 122, 139);
+    color: white;
+}
+
+.container-medio{
+    padding: 20px;
+}
+ 
+.texto{
+    color: white;
+    font-size: 22px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.producto{
+    padding-bottom: 30px;
+    color:white;
+    font-size: 30px;
+}
+.pic1{
+    background-color: aqua;
+    padding: 5px;
+    border:solid 1px gray;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.boton{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding:15px ;
+    border:solid 1px blue;
+    background-color: rgb(145, 37, 37);
+}
+
+.modal{
+height: 1055px;
+position: absolute;
+top: -1055px ;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 1055px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moda-pedido{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    padding: 50px;
+}
+
+
+
+/* @media (max-width: 350px) {
+    .container-uno{
+      display: none;
+    }
+} */

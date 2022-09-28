@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulario </title>
+</head>
+
+<body>
+    <div class="container" style="text-align: center; ">
+        <h2 style="color: rgb(189, 31, 31); text-align: center;">Formulario </h2>
+        <form action="#"
+            style="color: pink; border: solid 1px; border-radius: 12px; margin: auto; height: 400px; text-align: center; background-image: url(https://i.pinimg.com/originals/70/64/e3/7064e30bed811f5a2e1fdda2a28fe406.jpg); display: flex; flex-flow: column wrap; width: 50%; justify-content: space-around;">
+
+            <label for="username"> USUARIO : </label>
+            <input type="text" id="username" placeholder="Usuario" title="Nomre de Usuario" style="width: 50%; margin: auto;">
+            <label for="passaword"> PASSAWORD : </label>
+            <input type="password" id="passaword" placeholder="Contraseña"
+                title="Contraseña debe tener minimo 5 caracteristicas" style="width: 50%; margin: auto;">
+            <div id="mensaje" style="text-align: center" ; hidden flexbox:display-none> La contraseña no coincide</div>
+            <div style="text-align:center" id="mensaje display:none"> La contraseña no cumplio </div>
+            <button id="ingresar"
+                style="padding:5px; text-align: center; background-color:rgb(197, 197, 238); border-radius: 11px; width: 50%; margin: auto;" >
+                INGRESE</button>
+            <label for="enviar"> RECORDAR </label>
+            <input type="checkbox" id="enviar" href="" >
+
+        </form>
+    </div>
+
+    <script src="formularios.js"></script>
+</body>
+
+</html>
